@@ -1,0 +1,84 @@
+body{
+	background-image:url(../images/fancy-cushion.png);
+}
+*{ 
+	  margin:0;
+	  padding:0;
+	  list-style:none;
+	  text-decoration:none;
+      }
+#jd_html{
+	height:300px;
+	border:1px solid #ccc;
+	margin-bottom:5px;
+}
+#jd_html a{
+	display:block;
+	height:300px;
+}
+#index_php{
+    height:300px;
+	border:1px solid #ccc;
+	margin-bottom:5px;
+
+}
+#index_php a{
+	display:block;
+	height:300px;
+}
+#bts_html{
+    height:300px;
+	border:1px solid #ccc;
+}
+#bts_html a{
+	display:block;
+	height:300px;
+}
+#jd_html a{
+		width:600px;
+		line-height:250px;
+		margin:0 auto;
+		font-size:100px;
+		font-weight:bold;
+		background:url('../images/1.jpg') no-repeat 10px -300px;
+		color:transparent;
+		-webkit-background-clip:text;
+		animation:move 10s infinite alternate;
+        }
+	   @keyframes move{
+	      0%{background-position: 0 -100px;}/*记住一定要用大括号*/
+		  100%{background-position: -100px -100px;}
+	  }
+#index_php a{
+		width:600px;
+		line-height:250px;
+		letter-spacing:20px;
+		margin:0 auto;
+		font-size:100px;
+		font-weight:bold;
+		background:url('../images/2.jpg') no-repeat 10px -300px;
+		color:transparent;
+		-webkit-background-clip:text;
+		animation:moveo 10s infinite alternate;
+        }
+	   @keyframes moveo{
+	      0%{background-position: 0 -100px;}/*记住一定要用大括号*/
+		  100%{background-position: -100px -100px;}
+	  }
+#bts_html a{
+	width:700px;
+		line-height:250px;		
+		margin:0 auto;
+		font-size:100px;
+		font-weight:bold;
+		background:url('../images/3.jpg') no-repeat ;
+		color:transparent;
+		-webkit-background-clip:text;
+		animation:moveo 10s infinite alternate;
+        }
+	   @keyframes moveo{
+	      0%{background-position: 0 -100px;}/*记住一定要用大括号*/
+		  100%{background-position: -100px -100px;}
+	  }
+
+}

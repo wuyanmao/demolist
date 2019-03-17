@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="refresh" content="5 URL=index.html">
+    <title>HTML</title>
+    <style type="text/css">
+     body{
+            background:url(demo/images/amazing-sky.jpg) center center;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            position: relative;
+
+        }
+    html, body{
+            height: 100%;
+            color: #fff;
+            font-family: sans-serif;
+
+    }
+
+    h1{
+        font-size: 54px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+
+
+    }
+	h2{
+	   text-transform: uppercase;
+	   font-size:30px;
+	
+	
+	
+	}
+    p{
+        font-size: 24;
+        margin-bottom: 40px;
+
+
+    }
+       
+        #container{
+            width: 100%;
+            text-align:center;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            
+
+        }
+        a{
+            font-size: 18px;
+            color: #fff;
+            border: 1px solid #fff;
+            border-radius: 4px;
+            padding: 10px 100px;
+            text-decoration: none;
+
+
+
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+    <h1>let's learn</h1>
+	<h1 id="aa">5</h1>
+	<h2>Graduation design</h2>
+    <p>发挥您的美感与想象力，探索Web开发的无限可能性</p>
+    <a href="index.html">点击进入</a>
+    </div>
+    
+</body>
+<script language="javascript" type="text/javascript">
+        var i = 5;
+        var intervalid;
+        intervalid = setInterval("fun()", 1000);
+        function fun() {
+            if (i == 0) {
+                window.location.href = "index.html";
+                clearInterval(intervalid);
+            }
+            document.getElementById("aa").innerHTML = i;
+            i--; 
+        }
+    </script>
+	
+</html>
